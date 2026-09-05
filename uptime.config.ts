@@ -10,7 +10,7 @@ const pageConfig: PageConfig = {
   title: "我的服务状态监控",
   // 状态页头部的链接，可以改或删
   links: [
-    { link: 'https://github.com/你的用户名', label: 'GitHub' },
+    { link: 'https://github.com/zhongguomeng', label: 'GitHub' },
     // 不需要可以删掉或注释掉
   ],
 }
@@ -20,22 +20,22 @@ const workerConfig: WorkerConfig = {
   monitors: [
     // ========== HTTP/HTTPS 网站监控 ==========
     {
-      id: 'google',
-      name: 'Google',
+      id: 'dod168',
+      name: 'dod168',
       method: 'GET',
-      target: 'https://www.google.com',
-      tooltip: 'Google 搜索',
-      statusPageLink: 'https://www.google.com',
+      target: 'https://www.dod168.com',
+      tooltip: 'dod168',
+      statusPageLink: 'https://www.dod168.com',
       expectedCodes: [200],
       timeout: 10000,
     },
     {
-      id: 'baidu',
-      name: '百度',
+      id: 'zhuce',
+      name: '注册页面',
       method: 'GET',
-      target: 'https://www.baidu.com',
-      tooltip: '百度搜索',
-      statusPageLink: 'https://www.baidu.com',
+      target: 'https://zc.dods.fun',
+      tooltip: '注册',
+      statusPageLink: 'https://zc.dods.fun',
       expectedCodes: [200],
       timeout: 10000,
     },
