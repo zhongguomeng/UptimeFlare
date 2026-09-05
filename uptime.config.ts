@@ -1,6 +1,6 @@
 // 把 'https://你的网站.com' 改成真实地址
 {
-  id: 'my_website',
+  id: 'https://www.dod168.com',
   name: '我的网站',
   method: 'GET',
   target: 'https://www.dod168.com',  // 改成真实地址
